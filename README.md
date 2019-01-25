@@ -2,7 +2,7 @@
 
 
 
-##使用方法
+## 使用方法
 
 1. 添加jar包依赖，这些依赖放在 .\lib中：aip-java-sdk-4.1.1.jar   jave-1.0.2.jar  json-20160810.jar  log4j-1.2.17.jar
 
@@ -16,14 +16,14 @@
 
 
 
-##算法流程
+## 算法流程
 1. 把视频(mp4)转换成音频(wav)
 2. 在没有声音的音频采样点进行切割。
 3. 把切割后的音频提交给百度语音API，拿到字幕
 4. 根据src的字幕规则，生成字幕。
 
 
-##测试样例
+## 测试样例
 
 放在 .\SubtitleGenerator\src\main\java\com\joe\SubtitleGenerator\test\SpeechSample.mp4
 
